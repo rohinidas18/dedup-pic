@@ -1,0 +1,8 @@
+/cachp
+/copied
+/data
+.env
+old.txt
+docker-compose.yml
+/__pycache__
+/duplicates
