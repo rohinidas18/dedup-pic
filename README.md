@@ -43,6 +43,10 @@ REDIS_DB=
 > 
 > `redis_client.py` — Redis cache wrapper
 
+<p align="center">
+  <img src="Deduplication.png" alt="Terminal Output of program" />
+</p>
+
 
 ## My motivation for creating this
 - This was a side project I undertook to understand how caching in Redis works.
@@ -55,4 +59,5 @@ REDIS_DB=
 - Displaying the duplicates on a UI, with the option to discard/select the ones to keep.
 - Implement Image Hashing (pHash - perceptional hashing) which is computationally way faster.
 - Removing the double `for` loop for comparing embeddings because nobody wants O(n^2).
+- Implementing pylogger, removing the print statements.
 - Try it on my actual backup of images :)
